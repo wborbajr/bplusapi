@@ -1,0 +1,31 @@
+{
+  "name": "bplusapi",
+  "version": "1.0.0",
+  "description": "B+ API",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "test bootstrap.js",
+    "start": "nodemon bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "API",
+    "Hapi.JS",
+    "B+"
+  ],
+  "author": "Waldir Borba Junior <wborbajr@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.2",
+    "@hapi/joi": "^16.1.7",
+    "@hapi/vision": "^5.5.4",
+    "hapi-swagger": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
